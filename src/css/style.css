@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.range-label {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 2rem;
+}

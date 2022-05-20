@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Melody Maker</title>
+  <link rel="stylesheet" href="/style.78032849.css">
+<script src="/style.78032849.js"></script></head>
+
+<body>
+  <div id="root" class="wrapper">
+    <div class="player">
+      <textarea id="note-input" rows="5" cols="33" placeholder="Enter melody..."></textarea>
+      <textarea id="note-input-additional" rows="5" cols="33" placeholder="Enter melody..."></textarea>
+      <label class="range-label">
+        Volume:
+        <input id="volume-range" value="2" type="range" min="1" max="10">
+      </label>
+      <label class="range-label">
+        Timbre:
+        <input id="timbre-range" value="0" type="range" min="-12" max="12">
+      </label>
+      <label class="range-label">
+        Speed:
+        <input id="speed-range" value="100" type="range" min="50" max="200" step="10">
+        <p id="speed-label">100 bpm</p>
+      </label>
+      <div class="buttons">
+        <button id="play">Play</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js.00a46daa.js"></script>
+</body>
+
+</html>
